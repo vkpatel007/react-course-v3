@@ -24,8 +24,8 @@ const App = () => {
 
   return (<main>
     <section className="menu">
-      <Categories categories={categories} filterItems={filterItems} />
       <Title text='our menu' />
+      <Categories categories={categories} filterItems={filterItems} />
       <Menu menuItems={menuItems} />
 
     </section>
