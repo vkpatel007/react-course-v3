@@ -1,4 +1,10 @@
+import Example from "./Example";
+import Navbar from "./Navbar";
+
 const App = () => {
-  return <h2>Navbar Starter</h2>;
+  return <main>
+    <Navbar />
+    {/* <Example /> */}
+  </main>;
 };
 export default App;
